@@ -15,4 +15,6 @@
 #
 
 add_lunch_combo lineage_seagull-userdebug
+add_lunch_combo lineage_seagull-eng
+
 

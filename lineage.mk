@@ -14,13 +14,15 @@
 
 TARGET_KERNEL_CONFIG := aosp_yukon_seagull_defconfig
 
+# Inherit lineage common stuff.
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, device/sony/seagull/device.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-PRODUCT_NAME := aosp_d5103
+PRODUCT_NAME := lineage_seagull
 PRODUCT_DEVICE := seagull
-PRODUCT_MODEL := Xperia T3 (AOSP)
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony

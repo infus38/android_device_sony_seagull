@@ -47,10 +47,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     lights.seagull
 
-# Simple PowerHAL
-PRODUCT_PACKAGES += \
-    power.seagull
-
 # NFC config
 PRODUCT_PACKAGES += \
     nfc_nci.seagull

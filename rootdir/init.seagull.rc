@@ -15,6 +15,7 @@
 import init.yukon.rc
 import init.yukon.usb.rc
 import init.yukon.pwr.rc
+import init.yukon.srv.rc
 
 on init
     symlink /dev/block/platform/msm_sdcc.1 /dev/block/bootdevice

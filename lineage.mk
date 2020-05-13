@@ -22,6 +22,11 @@ $(call inherit-product, device/sony/seagull/device.mk)
 $(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
+# Resolution
+TARGET_SCREEN_HEIGHT := 1280
+TARGET_SCREEN_WIDTH := 720
+
+# Product attributes
 PRODUCT_NAME := lineage_seagull
 PRODUCT_DEVICE := seagull
 PRODUCT_BRAND := Sony
